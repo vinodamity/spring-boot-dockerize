@@ -7,7 +7,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.java.practice</groupId>
-	<artifactId>Spring-Docker-Jenkins-Integration</artifactId>
+	<artifactId>spring-docker-jenkins-integration</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -38,7 +38,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-			<!-- <plugin>
+			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.5</version>
@@ -66,8 +66,8 @@
 						<version>1.1.1</version>
 					</dependency>
 				</dependencies>
-			</plugin>-->
+			</plugin>
 		</plugins>
-		<finalName>spring-boot-docker-maven</finalName>
+		<finalName>spring-docker-jenkins-integration</finalName>
 	</build>
 </project>
